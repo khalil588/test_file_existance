@@ -4,9 +4,9 @@ from email.mime.text import MIMEText
 
 def sendmail(mail_content):
     # The mail addresses and password
-    sender_address = 'khalil.mekni@esen.tn'
-    sender_pass = '07240408'
-    receiver_address = 'nabil.bencheikhibrahim@esen.tn'
+    sender_address = ''
+    sender_pass = ''
+    receiver_address = ''
     # Setup the MIME
     message = MIMEMultipart()
     message['From'] = sender_address
